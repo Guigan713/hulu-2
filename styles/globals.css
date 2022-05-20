@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base { /* pour acceder a la base de notre app */
+    body {
+        @apply bg-[#06202A]  /* on applique un background de couleur a notre body */ text-gray-300;
+    }
+}
